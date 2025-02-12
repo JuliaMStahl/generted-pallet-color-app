@@ -1,16 +1,36 @@
-# generated_color_pallet
+# Dynamic Theme Switcher
 
-A new Flutter project.
+This project implements a dynamic theme switcher for a Flutter application. The themes used in this project were generated using the [Material Theme Builder](https://material-foundation.github.io/material-theme-builder/), ensuring a modern and visually appealing design that follows Material Design guidelines.
 
-## Getting Started
+## Features
+- Supports multiple themes
+- Dynamic switching between themes
+- Consistent styling using Material Design principles
 
-This project is a starting point for a Flutter application.
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/JuliaMStahl/generted-pallet-color-app.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd generted-pallet-color-app
+   ```
+3. Install dependencies:
+   ```sh
+   flutter pub get
+   ```
+4. Run the app:
+   ```sh
+   flutter run
+   ```
 
-A few resources to get you started if this is your first Flutter project:
+## Usage
+- The app allows switching between different themes dynamically.
+- Themes are pre-generated using Material Theme Builder for consistency and accessibility.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Contributing
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
