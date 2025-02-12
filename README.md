@@ -2,6 +2,8 @@
 
 This project implements a dynamic theme switcher for a Flutter application. The themes used in this project were generated using the [Material Theme Builder](https://material-foundation.github.io/material-theme-builder/), ensuring a modern and visually appealing design that follows Material Design guidelines.
 
+![](https://github.com/JuliaMStahl/generted-pallet-color-app/blob/main/Simulator%20Screen%20Recording%20-%20iPhone%2016%20-%202025-02-11%20at%2021.09.41.gif)
+
 ## Features
 - Supports multiple themes
 - Dynamic switching between themes
