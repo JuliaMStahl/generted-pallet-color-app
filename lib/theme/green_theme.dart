@@ -1,6 +1,7 @@
 import "package:flutter/material.dart";
+import "package:generated_color_pallet/theme/i_theme.dart";
 
-class MaterialThemeGreen {
+class MaterialThemeGreen implements ITheme {
   final TextTheme textTheme;
 
   const MaterialThemeGreen(this.textTheme);
@@ -56,6 +57,7 @@ class MaterialThemeGreen {
     );
   }
 
+  @override
   ThemeData light() {
     return theme(lightScheme());
   }
@@ -111,6 +113,7 @@ class MaterialThemeGreen {
     );
   }
 
+  @override
   ThemeData lightMediumContrast() {
     return theme(lightMediumContrastScheme());
   }
@@ -166,6 +169,7 @@ class MaterialThemeGreen {
     );
   }
 
+  @override
   ThemeData lightHighContrast() {
     return theme(lightHighContrastScheme());
   }
@@ -221,6 +225,7 @@ class MaterialThemeGreen {
     );
   }
 
+  @override
   ThemeData dark() {
     return theme(darkScheme());
   }
@@ -276,6 +281,7 @@ class MaterialThemeGreen {
     );
   }
 
+  @override
   ThemeData darkMediumContrast() {
     return theme(darkMediumContrastScheme());
   }
@@ -331,6 +337,7 @@ class MaterialThemeGreen {
     );
   }
 
+  @override
   ThemeData darkHighContrast() {
     return theme(darkHighContrastScheme());
   }
